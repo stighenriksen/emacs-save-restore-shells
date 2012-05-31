@@ -1,7 +1,7 @@
 ;; save-restore-shells.el
 ;; Functions for saving and restoring shell running inside emacs.
 ;; Supports just shell-mode for now.
-;; Saves buffer name and shell paths to ~/.emacs.d/savedshells.el
+;; Saves buffer names and shell paths to ~/.emacs.d/savedshells.el
 
 (defun save-shells () 
   "Saves all current shell's buffer names and default directories"
