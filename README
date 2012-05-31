@@ -1,0 +1,8 @@
+Save your buffers with:
+save-shells
+restore-shells
+
+Supports only shell-mode for now.
+
+To install, add the following to your ~/.emacs.el:
+(load-file "/path/to/save-restore-shells.el")
